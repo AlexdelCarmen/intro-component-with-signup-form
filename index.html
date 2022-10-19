@@ -11,6 +11,12 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
 
     <title>Frontend Mentor | Intro component with sign up form</title>
     <link rel="stylesheet" href="./style.css" />
@@ -29,26 +35,51 @@
         </p>
       </div>
       <form action="" class="form">
-        <div class="form-input"><input type="text" name="first-name" id="first-name" placeholder="First Name">
-        <img src="./images/icon-error.svg" alt="" class="error-icon fn">
-        <p class="error-message fn">First name cannot be empty</p>
+        <div class="form-input">
+          <input
+            type="text"
+            name="first-name"
+            id="first-name"
+            placeholder="First Name"
+          />
+          <img src="./images/icon-error.svg" alt="" class="error-icon fn" />
+          <p class="error-message fn">First name cannot be empty</p>
         </div>
-        <div class="form-input"><input type="text" name="last-name" id="last-name" placeholder="Last Name">
-          <img src="./images/icon-error.svg" alt="" class="error-icon ln">
+        <div class="form-input">
+          <input
+            type="text"
+            name="last-name"
+            id="last-name"
+            placeholder="Last Name"
+          />
+          <img src="./images/icon-error.svg" alt="" class="error-icon ln" />
           <p class="error-message ln">Last name cannot be empty</p>
-          </div>
-          <div class="form-input"><input type="email" name="email" id="email" placeholder="Email Address">
-            <img src="./images/icon-error.svg" alt="" class="error-icon em">
-            <p class="error-message em">Looks like this is not an email</p>
-            </div>
-            <div class="form-input"><input type="password" name="password" id="password" placeholder="Password">
-              <img src="./images/icon-error.svg" alt="" class="error-icon pw">
-              <p class="error-message pw">Looks like this is not an email</p>
-              </div>
-              <button type="submit">Claim your free trial</button> 
-              <p class="terms">
-                By clicking the button, you are agreeing to our <span class="sm-red">Terms and Services</span>
-              </p>
+        </div>
+        <div class="form-input">
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Email Address"
+          />
+          <img src="./images/icon-error.svg" alt="" class="error-icon em" />
+          <p class="error-message em">Looks like this is not an email</p>
+        </div>
+        <div class="form-input">
+          <input
+            type="password"
+            name="password"
+            id="password"
+            placeholder="Password"
+          />
+          <img src="./images/icon-error.svg" alt="" class="error-icon pw" />
+          <p class="error-message pw">Looks like this is not an email</p>
+        </div>
+        <button type="submit">Claim your free trial</button>
+        <p class="terms">
+          By clicking the button, you are agreeing to our
+          <span class="sm-red">Terms and Services</span>
+        </p>
       </form>
     </section>
 

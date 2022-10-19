@@ -1,3 +1,7 @@
+:root{
+  --font: 'Poppins', sans-serif;
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
