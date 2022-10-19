@@ -1,37 +1,64 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
 
-  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  
-  <title>Frontend Mentor | Intro component with sign up form</title>
-  <link rel="stylesheet" href="./style.css">
-</head>
-<body>
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
 
-  Learn to code by watching others
+    <title>Frontend Mentor | Intro component with sign up form</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section class="component">
+      <h2 class="component-title">Learn to code by watching others</h2>
+      <p class="component-paragraph">
+        See how experienced developers solve problems in real-time. Watching
+        scripted tutorials is great, but understanding how developers think is
+        invaluable.
+      </p>
+      <div class="purple-square">
+        <p class="purple-square-text">
+          <span class="bold">Try it free 7 days</span> then $20/mo. thereafter
+        </p>
+      </div>
+      <form action="" class="form">
+        <div class="form-input"><input type="text" name="first-name" id="first-name" placeholder="First Name">
+        <img src="./images/icon-error.svg" alt="" class="error-icon fn">
+        <p class="error-message fn">First name cannot be empty</p>
+        </div>
+        <div class="form-input"><input type="text" name="last-name" id="last-name" placeholder="Last Name">
+          <img src="./images/icon-error.svg" alt="" class="error-icon ln">
+          <p class="error-message ln">Last name cannot be empty</p>
+          </div>
+          <div class="form-input"><input type="email" name="email" id="email" placeholder="Email Address">
+            <img src="./images/icon-error.svg" alt="" class="error-icon em">
+            <p class="error-message em">Looks like this is not an email</p>
+            </div>
+            <div class="form-input"><input type="password" name="password" id="password" placeholder="Password">
+              <img src="./images/icon-error.svg" alt="" class="error-icon pw">
+              <p class="error-message pw">Looks like this is not an email</p>
+              </div>
+              <button type="submit">Claim your free trial</button> 
+              <p class="terms">
+                By clicking the button, you are agreeing to our <span class="sm-red">Terms and Services</span>
+              </p>
+      </form>
+    </section>
 
-  See how experienced developers solve problems in real-time. Watching scripted tutorials is great, 
-  but understanding how developers think is invaluable. 
-
-  Try it free 7 days then $20/mo. thereafter
-
-  First Name 
-  Last Name 
-  Email Address
-  Password
-
-  Claim your free trial 
-
-  By clicking the button, you are agreeing to our Terms and Services
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
-</body>
+    <footer>
+      <p class="attribution">
+        Challenge by
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
+          >Frontend Mentor</a
+        >. Coded by <a href="#">Your Name Here</a>.
+      </p>
+    </footer>
+  </body>
 </html>
