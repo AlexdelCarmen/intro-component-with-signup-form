@@ -1,7 +1,11 @@
 :root{
   --font: 'Poppins', sans-serif;
-}
-
+  --main-color1: hsl(0, 100%, 74%);
+  --main-color2: hsl(154, 59%, 51%);
+  --accent-color1: hsl(248, 32%, 49%); 
+  --dark-color1:  hsl(249, 10%, 26%) ; 
+  --dark-color2: hsl(246, 25%, 77%); 
+} 
 .attribution {
   font-size: 11px;
   text-align: center;
