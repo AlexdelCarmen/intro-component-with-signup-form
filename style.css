@@ -171,6 +171,18 @@ button {
   color: var(--main-color1);
 }
 
+.hidden {
+  display: none;
+}
+
+.error {
+  border:  2px solid var(--main-color1);
+}
+
+.error:focus {
+  border:  2px solid var(--main-color1);
+}
+
 .attribution {
   font-size: 11px;
   text-align: center;
