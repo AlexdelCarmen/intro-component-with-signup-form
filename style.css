@@ -190,6 +190,7 @@ a {
 @media screen and (min-width: 900px){
 
   .component{
+    margin: 2% 0;
     max-width: var(--desktop-width);
     display: flex;
     justify-content: space-evenly;
