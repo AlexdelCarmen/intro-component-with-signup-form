@@ -167,8 +167,12 @@ button {
 }
 
 .sm-red {
-  font-weight: 500;
+  font-weight: 600;
   color: var(--main-color1);
+}
+
+a {
+  text-decoration: none;
 }
 
 .hidden {
@@ -181,6 +185,48 @@ button {
 
 .error:focus {
   border:  2px solid var(--main-color1);
+}
+
+@media screen and (min-width: 900px){
+
+  .component{
+    max-width: var(--desktop-width);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 7.5% 1%;
+  }
+
+  .component-left {
+    max-width: 40%;
+  }
+
+  .component-right {
+    width: 40%;
+  }
+
+  .component-title, .component-paragraph{
+    text-align: left;
+  }
+
+  .component-title {
+    font-size: 48px;
+  }
+
+  .component-paragraph {
+    padding-left: 3rem;
+    padding-right: 0;
+  }
+
+  .form {
+    padding: 2rem;
+  }
+
+  .input {
+    margin-bottom: 20px;
+  }
+
+
 }
 
 .attribution {
